@@ -1,0 +1,95 @@
+ body {
+  background-color: lightsteelblue;
+  font-family: Roboto;
+}
+
+button {
+  padding: 20px 30px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #80FF72;
+  border: none;
+}
+
+button:hover {
+  background-color: #10FF72;
+}
+
+#startMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-size: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#game {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.gameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.card-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  
+}
+
+.card {
+  margin: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transition: all 0.9s ease;
+}
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image: url("images/code.jpg");
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+#endGame {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-size: 50px;
+}
+
+
+
+

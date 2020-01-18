@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="startMenu">
+    <h1>Tech Matcher</h1>
+    <button>Start Game</button>
+    <h2>Best Score:<span id="best"></span></h2>
+  </div>
+  <div id="game">
+    <h1>Current Score: <span class='curScore'>0</span></h1>
+    <div class="gameContainer">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/js.jpg" alt="javascript symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/react.svg.png" alt="react symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/python.jpg" alt="python symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/js.jpg" alt="javascript symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/react.svg.png" alt="react symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/flask.png" alt="flask symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/flask.png" alt="flask symbol">
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/python.jpg" alt="python symbol">
+          </div>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <div id="endGame">
+    <h1>You won!</h1>
+    <h2><span id="finalScore"></span></h2>
+    <button id="endButton">Restart?</button>
+  </div>
+  <script src="memoryGame.js"></script>
+</body>
+</html>
